@@ -2,7 +2,7 @@ import uuid from "uuid/v1";
 
 export const characterReducer = (state, action) => {
   switch (action.type) {
-    case "ADD_BOOK":
+    case "ADD_CHARACTER":
       return [
         ...state,
         {
@@ -11,7 +11,7 @@ export const characterReducer = (state, action) => {
           id: uuid()
         }
       ];
-    case "REMOVE_BOOK":
+    case "REMOVE_CHARACTER":
       return state.filter((character) => character.id !== action.id);
     default:
       return state;
