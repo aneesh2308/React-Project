@@ -28,7 +28,7 @@ const CharacterForm = () => {
         required
       />
       <input
-        type="text"
+        type="number"
         placeholder="Power level"
         value={power}
         onChange={(e) => setPower(e.target.value)}
