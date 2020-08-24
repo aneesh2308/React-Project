@@ -9,7 +9,7 @@ const CharacterForm = () => {
     e.preventDefault();
     console.log(title, power);
     dispatch({
-      type: "ADD_BOOK",
+      type: "ADD_CHARACTER",
       character: {
         title,
         power
