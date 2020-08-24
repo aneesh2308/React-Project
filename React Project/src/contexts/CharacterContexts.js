@@ -18,7 +18,7 @@ const CharacterContextProvider = (props) => {
     //   }
     // );
     // useEffect(() => {
-    //   localStorage.setItem("books", JSON.stringify(character));
+    //   localStorage.setItem("characters", JSON.stringify(character));
     // }, [character]
   );
 
