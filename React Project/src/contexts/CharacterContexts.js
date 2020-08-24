@@ -7,10 +7,10 @@ const CharacterContextProvider = (props) => {
   const [characters, dispatch] = useReducer(
     characterReducer,
     [
-      { title: "Gohan", id: 1 },
-      { title: "Son Goku", id: 2 },
-      { title: "Vegeta", id: 3 },
-      { title: "Picollo", id: 4 }
+      { title: "Gohan", power:20000.0,id: 1 },
+      { title: "Son Goku",power:15000.0, id: 2 },
+      { title: "Vegeta",power:10000.0, id: 3 },
+      { title: "Picollo",power:8000.0, id: 4 }
     ]
     //   () => {
     //     const localData = localStorage.getItem("characters");
