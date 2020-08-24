@@ -13,13 +13,13 @@ const CharacterContextProvider = (props) => {
       { title: "Picollo", id: 4 }
     ]
     //   () => {
-    //     const localData = localStorage.getItem("books");
+    //     const localData = localStorage.getItem("characters");
     //     return localData ? JSON.parse(localData) : [];
     //   }
     // );
     // useEffect(() => {
-    //   localStorage.setItem("books", JSON.stringify(books));
-    // }, [books]
+    //   localStorage.setItem("books", JSON.stringify(character));
+    // }, [character]
   );
 
   return (
